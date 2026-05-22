@@ -1,8 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("QpActionFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("1744247"),s=o("FalcoLoggerInternal").create("qp_action",e),u=s;l.default=u}),98);
-__d("QpImpressionFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("1744249"),s=o("FalcoLoggerInternal").create("qp_impression",e),u=s;l.default=u}),98);
-__d("ThreadsCreateFeedTapFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("582"),s=o("FalcoLoggerInternal").create("threads_create_feed_tap",e),u=s;l.default=u}),98);
-__d("ThreadsFeedTabImpressionFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("1698"),s=o("FalcoLoggerInternal").create("threads_feed_tab_impression",e),u=s;l.default=u}),98);
-__d("ThreadsFeedTabTapFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("1621"),s=o("FalcoLoggerInternal").create("threads_feed_tab_tap",e),u=s;l.default=u}),98);
-__d("keyMirror",["FBLogger"],(function(t,n,r,o,a,i,l){"use strict";function e(e){var t={};if(!(e instanceof Object&&!Array.isArray(e)))throw r("FBLogger")("comet_infra").mustfixThrow("keyMirror(...): Argument must be an object.");for(var n in e)Object.prototype.hasOwnProperty.call(e,n)&&(t[n]=n);return t}l.default=e}),98);
